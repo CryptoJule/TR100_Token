@@ -1,0 +1,10 @@
+[package]
+name = "rocket_one_hundred_creator"
+version = "1.0.0"
+upgrade_policy = "compatible"
+
+[addresses]
+rocket_one_hundred_creator = "0x543d8eee91b4cca80c8878db5a37497efd73a56ac516a936dccfbed7d14ff989"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "testnet" }
